@@ -1,0 +1,283 @@
+body    {width: 100%;
+        height: 100%;
+        background-color: #f7d8ff;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;}
+
+
+
+/* start navigation bar */
+
+.navmenu    {display: flex;
+            justify-content: flex-start;
+            background-color: #0000ff;
+            font-size: 16pt;
+            list-style-type: none;
+            margin: 0px;
+            padding-left: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;}        
+
+.nav a {padding-left: 30px;
+        padding-right: 30px;
+        color: #ffffff;
+        text-decoration: none;}
+
+.nav a:hover    {color:#ffff00;}
+
+/* end navigation bar */
+
+/* start index.html css  */
+
+.dbschool img {
+    min-height: 100vh;
+}
+
+.dbschool h1 {
+    color: #cc99ff;
+    font-size: 100px;
+    font-family: 'Open+Sans', sans-serif;
+/*lower opacity of text*/
+    opacity: .85;
+}
+
+.dbschool {
+    min-height: 100vh;
+    background-image: url(images/schoolfront.jpg);
+    background-size: cover;
+/*the following centers and vertically aligns the text*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dbacademics {
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.dbabout {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.dbabout1 {
+    text-align: left;
+    height: 260px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-size: cover;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.dbabout2 {
+    height: 260px;
+    flex-wrap: wrap;
+}
+
+.dbslide-wrapper img {
+    background-size: contain;
+    height: 260px;
+    width: 350px;
+}
+
+.dbslideshow {
+    overflow: hidden;
+    height: 260px;
+    width: 350px;
+    margin: 0 auto; 
+}
+
+.dbslide-wrapper { 
+    width: 1400px;
+    animation: slide 15s ease infinite;
+}
+
+.dbslide {
+    float:left;
+    height: 260px;
+    width: 350px;
+}
+
+@keyframes slide { 
+    20% {margin-left: 0px;}
+    30% {margin-left: -350px;}
+    50% {margin-left: -350px;}
+    60% {margin-left: -700px;}
+    70% {margin-left: -700px;}
+    80% {margin-left: -1050px;}
+    90% {margin-left: -1050px;}
+}
+
+.dbnextstep {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Open+Sans', sans-serif;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-top: 1px solid black;
+}
+
+.dbbutton {
+    border: 2px solid black;
+    background-color: #0000ff;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.dbbody a {
+    color: black;
+    text-decoration: none;
+}
+
+.dbbody a:hover {
+    text-decoration: underline;
+    color:#ffff00;
+}
+
+.dbbuttons {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* end index.html css  */
+
+
+/*  start about.html css  */
+
+.topeb        {font-size: 36px;
+               text-align: center;
+               padding-top: 20px;
+               margin: 0;}
+
+.btmeb        { font-size: 26px;
+               text-align: center;
+               margin: 0;}
+
+.aboutheader  {text-align: center;
+               margin-top: 0px; }
+
+.aboutparent  {display: flex;
+               justify-content: flex-start;
+               padding-top: 100px;}
+
+
+.aboutimg      { padding:3px 40px 50px 150px; }
+
+.abouttext     {float:left;
+                width: 30%;
+                margin-left: 50px;
+                margin-bottom: 50px}
+
+.aboutbottom   {padding-top: 60px;
+                margin-bottom: 40px;
+                text-align: center;}
+
+/*  end about.html css  */
+
+/*  start course.html css  */
+
+.pbheader   {color: #000000;
+            margin-top: 25px;
+            margin-left: 30px;}
+
+.pbparent   {height: 100vh;}
+
+.pbparent   {display: flex;
+            justify-content: center;}
+
+.pbchild   {display: flex;
+            flex-direction: column;
+            justify-content: center;}
+
+.pbimg  {width: 40%;
+        margin-right: 15px;}
+
+.pbtext {width: 40%;
+        margin-left: 15px;}
+
+
+/*  end course.html css  */
+
+
+/*  start contact.html css  */
+
+.imagejd {
+    background-image: url(images/Campuscontact.jpg);
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.contact {
+    padding-left: 150px;
+    padding-top: 200px;
+}
+.teamjd {
+    padding-left: 40px;
+}
+img{
+    float:left;
+    text-align:{clear: left;}
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}   
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+/*  end contact.html css  */
